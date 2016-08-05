@@ -1,0 +1,72 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+#education h2 {
+    background-color: #d4cfcf;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+#professionalExperience h2 {
+    background-color: #d4cfcf;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+#interests h2 {
+    background-color: #d4cfcf;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.address {
+    color:#837d7d;
+}
+
+.social img {
+    width: 25px;
+}
+
+.dateRange {
+    font-style: italic;
+}
+
+.institution {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.company {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: square;
+}
+
+.educationItem {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.socialIcon {
+    display: inline;
+}
+
+a:hover {
+    color: navy;
+}
+
+a:visitted {
+    color: blue;
+}
