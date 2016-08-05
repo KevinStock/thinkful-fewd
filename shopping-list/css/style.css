@@ -1,0 +1,148 @@
+#container {
+	width: 650px;
+	margin: 0 auto;
+}
+
+input {
+	border: none;
+	background-color: #dfdada;
+	font-size: 40px;
+	margin: 0 5px;
+	padding: 0;
+	line-height: 49px;
+	text-align: center;
+	font-family: "Swanky and Moo Moo", cursive;
+	height: 49px;
+}
+
+input:focus {
+	outline: none;
+}
+
+
+.input {
+    width: 650px;
+	min-width: 650px;
+	position: relative;
+	top: -8px;
+	left: -5px;
+	height: 50px;
+}
+
+.item_input {
+	float: left;
+	width: 480px;
+
+}
+
+.qty_input {
+	float: left;
+	width: 94px;
+}
+
+.add {
+	height: 45px;
+	width: 45px;
+	margin-top: 2px;
+	border-radius: 50%;
+	border: 1px solid black;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+form {
+    margin: 0 auto;
+    height: 50px;
+}
+
+#items {
+	position: relative;
+	top: -70px;
+	display: inline-block;
+	width: 475px;
+	min-width: 475px;
+}
+
+.item_container {
+	min-width: 720px;
+	height: 49px;
+	opacity: 0;
+	position: absolute;
+}
+
+.item {
+	text-align: center;
+	height: 49px;
+	min-width: 480px;
+	float: left;
+	margin-right: 5px;
+	margin-top: 5px;
+	font-size: 40px;
+	font-family: "Swanky and Moo Moo", cursive;
+}
+
+.qty {
+	height: 49px;
+	width: 94px;
+	float: left;
+	margin-top: 5px;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Swanky and Moo Moo", cursive;
+}
+
+.error {
+    background-color: red !important;
+}
+
+#remove {
+    float: left;
+	margin-left: 40px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin: 2px 5px 0 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    background-color: red;
+}
+
+#check {
+    float: left;
+	margin-left: 10px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin: 2px 0 0 0;
+    background-color: transparent;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    background-color: green;	
+}
+
+.check {
+	text-decoration: line-through;
+}
+
+header {
+    margin-top: 8px;
+	line-height: 50px;
+	height: 100px;
+	width: 100%;
+	font-family: "Swanky and Moo Moo", cursive;
+	font-size: 4em;
+	text-align: center;
+	min-width: 710px;
+}
+
+body {
+	background-image: url(../images/line.png);
+	background-repeat: repeat;
+}
