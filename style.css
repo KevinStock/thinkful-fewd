@@ -1,0 +1,13 @@
+#lesson-one {
+	display:block;
+}
+
+#lesson-one a {
+	display:block;
+	padding: 5px;
+	font-size: 1.25em;
+}
+
+h3 {
+	font-style: italic;
+}
