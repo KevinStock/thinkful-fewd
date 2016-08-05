@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 135px;
+    margin-bottom: 0;
+    z-index: 10;
+}
+
+.logo_spacer {
+	background-color: #2A5252;
+	height: 10px;
+	min-width: 600px;
+}
+
+#logo {
+	background-color: #2A5252;
+	border-top: 5px solid white;
+	min-width: 600px;
+}
+
+.title {
+	font-family: 'Abel', Arial, sans-serif;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-size: 4em;
+	display: block;
+	margin: 0;
+}
+
+#logo h2 {
+	width: 100%;
+	min-width: 600px;
+	text-align: center;
+	border-bottom: 5px solid white;
+	line-height: .01em;
+	margin: 5px 0 0 0;
+
+}
+
+.subtitle {
+	font-family: 'Bad Script', cursive;
+	color: white;
+	font-size: .8em;
+	background: #2A5252;
+	padding: 0 10px;
+}
+
+
+#nav {
+    position: absolute;
+    width: 100%;
+    margin: 0 0 0 0;
+    top: 99px;
+    background-color: #2A5252;
+    left: 0;
+    display: block;
+}
+
+#nav ul {
+    list-style: none;
+    height: 35px;
+    width: 566px;
+    min-width: 566px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#nav li {
+    display: inline-block;
+    border: 3px solid white;
+    font-family: 'Abel';
+    text-transform: uppercase;
+    font-size: 1.25em;
+    width: 100px;
+    padding: 2px;
+    text-align: center;
+}
+
+#nav li:hover {
+	background-color: #0A3232;
+    background-color: rgb(10, 50, 50);
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#content {
+    position: absolute;
+    top: 134px;
+    display: block;
+	height: 100%;
+	width: 100%;
+    text-align: center;
+    font-family: arial;
+    font-size: 1.5em;
+}
+
+#breakfast {
+    height: -moz-calc(100% - 210px); /* Firefox */
+    height: -webkit-calc(100% - 210px); /* Chrome, Safari */
+    height: calc(100% - 210px); /* IE9+ and future browsers */
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+    width: 100%;
+    background-image: url("images/breakfast.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.content_header {
+	display: inline-block;
+	position: relative;
+	top: -25px;
+	width: 80%;
+	margin: 0 auto;
+	padding: 2%;
+	font-size: 1.25em;
+	background-color: #5C8181;
+	background-color: rgba(92, 129, 129, 0.75);
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	font-weight: bold;
+}
+
+#beer {
+    padding-bottom: 50px;
+	padding-top: 25px;
+    height: -moz-calc(100% - 209px); /* Firefox */
+    height: -webkit-calc(100% - 209px); /* Chrome, Safari */
+    height: calc(100% - 209px); /* IE9+ and future browsers */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.date {
+	font-size: 1em;
+	text-decoration: underline;
+}
+
+.sponsor_image {
+	height: 15%;
+	width: 100%;
+}
+
+.sponsor_img {
+    height: 100%;
+	display: block;
+	margin: 20px auto;
+}
+
+
+.large_img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background: #2A5252;
+	min-width: 900px;
+	color: white;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    font-size: small;
+    min-width: 250px;
+}
+
+footer .address {
+	position: absolute;
+	max-width: 20%;
+	min-width: 210px;
+	padding-right: 5px;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+footer .contact {
+	position: absolute;
+	max-width: 20%;
+	min-width: 275px;
+	left: 20%;
+	padding-top: 15px;
+	padding-right: 5px;
+}
+
+footer .summer_hours {
+	position: absolute;
+	left: 45%;
+    max-width: 20%;
+    min-width: 175px;
+    padding: 15px 5px 0 0;
+}
+
+footer .winter_hours {
+	position: absolute;
+	left: 65%;
+	max-width: 20%;
+	min-width: 175px;
+	padding: 15px 5px 0 0;
+}
+
+footer .social {
+	position: absolute;
+	right: 0;
+	top: 0;
+	max-width: 10%;
+	min-width: 185px;
+	padding: 15px 15px 0 0;
+}
+
+
+footer img {
+    height: 40px;
+    float: right;
+    padding: 0 5px;
+}
+
+footer a {
+	color: white;
+	font-weight: bold;
+}
