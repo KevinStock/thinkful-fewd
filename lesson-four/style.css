@@ -1,0 +1,25 @@
+p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#images {
+    width: 100%;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#original {
+    float: left;
+    padding: 20px;
+}
+
+#modified {
+    float: left;
+    padding: 20px;
+}
