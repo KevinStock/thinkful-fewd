@@ -1,0 +1,247 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*
+
+  Header
+ 
+*/
+
+
+
+#header {
+	position: fixed;
+	top: 0;
+	margin-top: 20px;
+	height: 30px;
+	width: 100%;
+	min-width: 980px;
+	color: #404040;
+	font-size: .9em;
+}
+
+#header ul {
+	margin-right: 30px;
+	display: table-row;
+}
+
+#header li {
+	display: table-cell;
+	height: 30px;
+	vertical-align: middle;
+	padding: 0 10px;
+}
+
+#header form {
+	display: inline;
+}
+
+#header a {
+	text-decoration: none;
+	color: #404040;
+}
+
+#header a:hover {
+	text-decoration: underline;
+}
+
+
+/*
+
+   Search
+
+*/
+
+
+#search {
+	position: absolute;
+	top: 40px;
+	margin-top: 150px;
+	width: 100%;
+	min-width: 980px;
+}
+
+#search img {
+	display: block;
+	height: 95px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+#search form {
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+}
+
+
+/*
+
+   Footer
+
+*/
+
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	min-width: 980px;
+	background-color: #f2f2f2;
+	color: #666666;
+	font-size: .9em;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #666666;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#footer ul {
+	display: table-row;
+}
+
+#footer li {
+	padding: 0 15px;
+	height: 40px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+/*
+
+   Classes
+   
+*/
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.search_btn-default {
+	background-color: #f2f2f2;
+	border: 1px solid #dcdcdc;
+	border-radius: 3px;
+	height: 27px;
+	font-weight: bold;
+	color: #444444;
+	margin: 8px;
+}
+
+.search_btn:hover {
+	border-color: #c6c6c6;
+	color: #222222;
+}
+
+.login_btn-default {
+	background-color: #4583ed;
+	color: #ffffff;
+	border: 0;
+	border-radius: 2px;
+	height: 30px;
+	width: 69px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.login_btn:hover {
+	
+}
+
+.microphone {
+	background-image: url(images/microphone.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 24px;	
+}
+
+
+/*
+
+   Elements
+
+*/
+
+input {
+	display: block;
+	margin: 0 auto;
+	width: 568px;
+	height: 25px;
+	border: 1px solid #d8d8d8;
+}
+
+
+input:focus {
+	border: 1px solid #4285f4;
+	outline: none;
+}
+
+input:focus:hover {
+	border: 1px solid #4285f4;
+	outline: none;
+}
+
+input:hover {
+	border: 1px solid #b2b2b2;
+	outline: none;
+}
