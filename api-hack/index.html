@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<title>API Hack</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			The Movie Database API Access
+		</header>
+		
+		<nav>
+			<ul id="navigation">
+				<li id="movie_button">Search Movies</li>
+				<li id="tv_button">Search TV Shows</li>
+			</ul>
+		</nav>
+	
+
+		<section id="search">
+			<div id="movie_search">
+				<form class="search_form">
+					<input class="movie_title search_term" type="text" placeholder="Movie Name" />
+					<button type="submit" id="movie_title_search_term" class="search_submit">
+						Search
+					</button>
+				</form>
+				<div class="divider">
+					OR
+				</div>
+				<form class="search_form">
+					<input type="text" class="search_term" placeholder="Actor / Actress" />
+					<button type="submit" id="movie_actor_search_term" class="search_submit" disabled="disabled">
+						Coming Soon
+					</button>
+				</form>
+			</div>
+			
+			<div id="television_search">
+				<form class="search_form">
+					<input type="text" class="search_term" placeholder="Show Name" />
+					<button type="submit" id="tv_title_search_term" class="search_submit" disabled="disabled">
+						Coming Soon
+					</button>
+				</form>
+				<div class="divider">
+					OR
+				</div>
+				<form class="search_form">	
+					<input type="text" class="search_term" placeholder="Actor / Actress" />
+					<button type="submit" id="tv_actor_search_term" class="search_submit" disabled="disabled">
+						Coming Soon
+					</button>
+				</form>
+			</div>
+		</section>
+		
+		<section id="results">
+		</section>
+        <div id="error">
+    	</div>
+		
+		<div id="template" class="hidden">
+	
+			<div class="movie">
+				<div class="movie_poster">
+					<img src="">
+				</div>
+				<div>
+					<span class="movie_name scroll"></span>
+				</div>
+			</div>
+	
+			
+			<div class="movie_details">
+				<button type="button" id="back">
+					Back to Movie List
+				</button>
+				<div class="titleAndImageContainer">	
+					<span class="detail movie_title"></span>
+					<div class="detail movie_poster_large">
+						<img src="">
+					</div>
+					<div id="synopsis">
+		    			<span class="detial header">Synopsis:</span>
+						<span class="detail movie_synopsis"></span>
+					</div>
+					<div>
+		    			<span class="detail header">Release Date:</span>
+						<span class="detail movie_release_date"></span>
+					</div>
+					<div>
+						<span class="detail header">Runtime:</span>
+						<span class="detail movie_runtime"></span>
+					</div>
+					<div>
+						<span class="detail header">Videos</span>
+						<div class="detail movie_videos"></div>
+					</div>
+				</div>
+
+				<div class="cast">
+					<span class="header cast_header">Cast</span>
+				</div>
+			</div>
+			
+			<div class="person">
+				<div class="person_photo">
+					<img src="">
+				</div>
+				<div class="person_name">
+				</div>
+				<div class="person_character_name">
+				</div>
+			</div>
+			
+			<div class="video">
+				<a class="video_link" href="" target="_blank">
+					<div class="video_thumb">
+						<img src="">
+					</div>
+				</a>
+				<div class="video_name">
+				</div>
+			</div>
+		</div>
+	
+		<footer>
+			<a href="http://www.tmdb.org"><img src="images/tmdb-logo.png"></a>
+			This product uses the TMDb API but is not endorsed or certified by TMDb.
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,300 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-width: 675px;
+	height: 80px;
+	background-color: blue;
+	text-align: center;
+	font-size: 3em;
+	padding-top: 20px;
+	text-shadow: 2px 2px 8px #c4b8b8;
+	font-weight: bold;
+	z-index: 100;
+}
+
+nav {
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	top: 100px;
+	left: 0;
+	z-index: 100;
+}
+
+#movie_button:hover,
+#tv_button:hover {
+	cursor: pointer;
+	background-color: #da2020;
+	font-weight: bold;
+}
+
+#movie_button,
+#tv_button {
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+#navigation {
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+	min-width: 675px;
+}
+
+#navigation li {
+	width: 50%;
+	height: 40px;
+	float: left;
+	text-align: center;
+	font-size: 1.5em;
+	background: red;
+	line-height: 1.5em;
+}
+
+.hidden {
+	display: none;
+}
+
+#search {
+	z-index: 100;
+	position: fixed;
+	top: 140px;
+	left: 0;
+	width: 100%;
+	min-width: 675px;
+}
+
+.search_form {
+	height: 50px;
+}
+
+.search_form input {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.divider {
+	display: block;
+	margin: 15px auto;
+}
+
+
+
+#movie_search,
+#television_search {
+	padding: 15px 0;
+	height: 150px;
+	margin: auto;
+	width: 75%;
+	min-width: 420px;
+	background-color: #d8d7d7;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+.search_submit {
+	height: 50px;
+	width: 60px;
+}
+
+.search_term {
+	height: 40px;
+	width: 400px;
+	font-size: 1.25em;
+}
+
+#error {
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    color: red;
+}
+
+#results {
+	position: absolute;
+	top: 140px;
+	width: 100%;
+	margin: auto;
+	padding-bottom: 50px;
+
+}
+
+.movies {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+.movie {
+    width: 185px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 5px 10px;
+}
+
+.movie:hover,
+.person:hover {
+	cursor: pointer;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+.movie_poster {
+	width: 185px;
+	margin: 0 auto;
+}
+
+.movie_name {
+	font-weight: bold;
+	font-size: 1.1em;
+	display: block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 185px;
+	overflow: hidden;
+	padding: 0;
+	background-color: #b9adad;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.movie_poster img {
+	margin: 0 auto;
+	height: 266px;
+	width: 185px;
+}
+
+.movie_details {
+	width: 100%;
+	padding-top: 15px;
+	min-width: 675px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 600px;
+}
+
+.titleAndImageContainer {
+	background-repeat: no-repeat;
+	background-position: center top; 
+	background-size: cover;
+	min-height: 600px;
+}
+
+.movie_details .movie_title {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.movie_title,
+.movie_synopsis,
+.movie_release_date,
+.movie_runtime,
+.video {
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	padding: 0 20px;
+}
+
+.movie_poster_large {
+	padding-top: 15px;
+	float: left;
+	margin-left: 50px;
+	width: 400px;
+	height: 100%;
+}
+
+.movie_poster_large img {
+	box-shadow: 4px 4px 10px 5px black;
+}
+
+.movie_cast {
+	display: block;
+}
+
+.person {
+	margin: 10px 5px;
+	display: inline-block;
+	width: 200px;
+}
+
+
+footer {
+	background-color: grey;
+	height: 30px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding-bottom: 10px;
+	width: 100%;
+	min-width: 675px;
+}
+
+footer img {
+	height: 20px;
+}
+
+.header {
+    display: block;
+    font-size: 1.15em;
+    font-weight: bold;
+    margin-top: 15px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.cast_header {
+	background-color: #b9adad;
+}
+
+.movie_synopsis,
+.movie_release_date,
+.movie_runtime,
+.movie_videos,
+.movie_title,
+.header {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.movie_title {
+	display: inline-block;
+}
+
+.movie_videos {
+	max-width: 100%;
+}
+
+.video {
+	display: inline-block;
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	max-width: 240px;
+	margin: 10px;
+}
+
+
+.cast {
+	max-width: 100%;
+}
