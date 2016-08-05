@@ -1,0 +1,143 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+h2 {
+    background-color: #d4cfcf;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.address {
+    color:#837d7d;
+    margin-bottom: 5px;
+}
+
+.email {
+	margin-bottom: 5px;
+}
+
+.social img {
+    width: 25px;
+}
+
+.dateRange {
+    font-style: italic;
+}
+
+.institution {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.company {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: square;
+}
+
+#interests p {
+	float: left;
+	text-align: center;
+	margin: auto;
+	width: 33%;
+	padding: 10px 0;
+
+}
+
+.educationItem {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.socialIcon {
+    display: inline;
+}
+
+* a:hover {
+    color: navy;
+}
+
+* a:visited {
+    color: blue;
+}
+
+#contact {
+	top: 0;
+	left: 0;
+	position: fixed;
+	height: 140px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #ffffff;
+	margin: auto;
+}
+
+#contactDetails {
+	height: 100%;
+	float: right;
+	padding-right: 2px;
+}
+
+#photo {
+	float: right;
+	padding-right: 5px;
+}
+
+
+#photo img {
+	max-height: 140px;
+	height: 140px;
+	-webkit-border-radius: 40px;
+	-webkit-border-top-right-radius: 0; 
+	-moz-border-radius: 40px;
+	-moz-border-radius-topright: 0;
+	border-radius: 40px;
+	border-top-right-radius: 0;
+}
+
+
+#education {
+	width: 100%;
+	margin-top: 150px;
+	overflow: hidden;
+}
+
+.educationItem {
+	text-align: center;
+	width: 50%;
+	float: left;
+	margin: 0;
+}
+
+#professionalExperience {
+	clear: both;
+	width: 100%;
+	margin-top: 15px;
+}
+
+#accomplishments {
+	width: 100%;
+}
+
+#interests {
+	width: 100%;
+	overflow: hidden;
+}
+
+#footer {
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+}
