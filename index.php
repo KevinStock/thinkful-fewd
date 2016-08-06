@@ -24,9 +24,5 @@
 				<a href="jquery-streetfighter/">Lesson 3: Street Fighter</a>
 			</div>
 		</section>
-	<script type="text/javascript">
-  var FHChat = {product_id: "e847a7381081"};
-  FHChat.properties={};FHChat.set=function(key,data){this.properties[key]=data};!function(){var a,b;return b=document.createElement("script"),a=document.getElementsByTagName("script")[0],b.src="https://chat-client-js.firehoseapp.com/chat-min.js",b.async=!0,a.parentNode.insertBefore(b,a)}();
-</script>	
 	</body>
 </html>
