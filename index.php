@@ -23,6 +23,7 @@
 			<div id="unit-two">
 				<a href="jquery-streetfighter/">Lesson 3: Street Fighter</a>
 				<a href="shopping-list/">Shopping List</a>
+				<a href="stackerAJAX/">Stacker AJAX</a>
 			</div>
 		</section>
 	</body>
