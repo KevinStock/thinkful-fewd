@@ -22,6 +22,7 @@
 			<h3>jQuery and GitHub</h3>
 			<div id="unit-two">
 				<a href="jquery-streetfighter/">Lesson 3: Street Fighter</a>
+				<a href="shopping-list/">Shopping List</a>
 			</div>
 		</section>
 	</body>
