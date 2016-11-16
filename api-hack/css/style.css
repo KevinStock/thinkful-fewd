@@ -115,6 +115,7 @@ nav {
 }
 
 .search_term {
+	color: gray;
 	height: 40px;
 	width: 400px;
 	font-size: 1.25em;
@@ -145,7 +146,8 @@ nav {
 }
 
 .movie {
-    width: 185px;
+    width: 187px;
+    height: 294px;
 	box-sizing: border-box;
 	display: inline-block;
 	margin: 5px 10px;
@@ -154,7 +156,6 @@ nav {
 .movie:hover,
 .person:hover {
 	cursor: pointer;
-	box-sizing: border-box;
 	border: 1px solid black;
 }
 
