@@ -149,8 +149,11 @@ nav {
     width: 187px;
     height: 294px;
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	display: inline-block;
 	margin: 5px 10px;
+	border: 1px solid white;
 }
 
 .movie:hover,
