@@ -220,7 +220,8 @@ var getMovies = function(search_term) {
 	var request = {
 		api_key: tmdb_api_key,
 		query: encodeURIComponent(search_term),
-		search_type: 'ngram'
+		//search_type: 'ngram'
+		include_adult: false
 	};
 	var result = $.ajax({
 		url: "http://api.themoviedb.org/3/search/movie",
@@ -412,7 +413,8 @@ var getPersonDetail = function(person_id) {
 var getPersons = function(search_term) {
 	var request = {
 		api_key: tmdb_api_key,
-		query: encodeURIComponent(search_term)
+		query: encodeURIComponent(search_term),
+		include_adult: false
 	};
 	var result = $.ajax({
 		url: "http://api.themoviedb.org/3/search/person",
